@@ -5,4 +5,6 @@ additions = [
     # rg 'https://crates.io/crates/[a-z_-]+' --glob '*.stderr' --only-matching --no-line-number --no-filename | sort | uniq | cut -d '/' -f 5
     "async-trait",
     "async-recursion",
+    # Added, for hydroflow.
+    "hydroflow",
 ]
